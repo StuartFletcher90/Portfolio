@@ -1,0 +1,220 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    height: 100%;
+    max-width: 100%;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.wrapper {
+    height: 100vh;
+    box-shadow: #000000 10px, 10px;
+}
+
+.flex-container {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+/* nav stuff */
+/*  */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgba(252, 252, 253, 0.774);
+    position: fixed;
+    width: 100%;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.nav-links li{
+    list-style: none;
+}
+
+/* end of nav */
+.welcome-landing {
+    background-image: url("./backgroundimg/color-4057072_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    box-shadow: inset 0px -10px 8px  rgba(255, 255, 255, 0.945);
+}
+
+h1 {
+    font-size: 8.5vw;
+    padding: 0;
+}
+
+h2 {
+    padding: 0;
+    font-size: 5.5vw
+}
+/* correct this below */
+.message-container {
+    padding-top: 10%;
+}
+#welcome-message{
+    color: #FBC531;
+    text-shadow: #325EFA 3px 3px;
+}
+
+/* about me page! */
+.about-me {
+    background-image: url("./backgroundimg/blueeye.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset 0px 10px 8px  rgba(255, 255, 255, 0.829),
+                inset 0px -10px 8px  rgba(255, 255, 255, 0.945);
+}
+
+#about-message {
+    color: #E37009;
+    text-shadow: 2px 2px #0EBEE3;
+}
+
+.heading-container {
+    display: flex;
+    height: 35%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about-para {
+    text-align: center;
+    width: 50%;
+    color: rgb(255, 255, 255);
+}
+
+.para-banner {
+    display: flex;
+    justify-content: center;
+    border: #0abbe3 solid 1px;
+    background-color: #0abbe393;
+}
+
+/* tech stack page */
+
+.tech-stack {
+    /* background-image: url("./books-441866_1920.jpg"); */
+    background-image: url("./backgroundimg/sound-waves-transparent-background-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset 0px 10px 8px  rgb(255, 255, 255),
+                inset 0px -10px 8px  rgb(255, 255, 255);
+}
+
+#stack-message {
+    color: #ff9ff3;
+    text-shadow: 2px 2px #BCFFA3;
+}
+.stack-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.stack-cards img{
+    height: 15vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* projects */
+
+.my-projects {
+    background-image: url("./backgroundimg/inkywtaer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset 0px 5px 8px rgb(255, 255, 255),
+                inset 0px -5px 8px  rgb(255, 255, 255);
+}
+
+#projects-message {
+    color: #FFC55A;
+    text-shadow: #5EA5FF 2px 2px;
+}
+.project-link{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projects-sub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-link img{
+    height: 15vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* max-width: 161.8px;
+    max-height: 161.8px; */
+
+}
+
+/* contact stuff */
+
+
+.contact-me {
+    background-image: url("./backgroundimg/expectrum-1191724_1280.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-message {
+    color: #b373f3;
+    text-shadow: #E9EB63 2px 2px;
+}
+
+.contact-container {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.info-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+        .nav-links a {
+            color: rgb(31, 31, 31);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 13px;
+            padding-left: 10px;
+        }
+}
