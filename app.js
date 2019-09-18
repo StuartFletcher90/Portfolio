@@ -14,3 +14,18 @@ $('.nav-links a').on('click', function (e) {
   }
 });
 
+const aboutMe = document.getElementById("about-me-id")
+
+const myScrollFunc = () => {
+  console.log(window.scrollY)
+  let y = window.scrollY;
+
+  if (y >= 600) {
+    aboutMe.classList.add("animate");
+    aboutMe.classList.remove("hide");
+
+  }
+
+}
+
+window.addEventListener("scroll", myScrollFunc);

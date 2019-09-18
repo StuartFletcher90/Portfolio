@@ -55,7 +55,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    box-shadow: inset 0px -0px 20px  rgba(255, 255, 255, 0.945);
+    box-shadow: inset 0px -30px 10px  rgba(255, 255, 255, 0.986);
 }
 
 h1 {
@@ -88,8 +88,8 @@ h2 {
 }
 
 #about-message {
-    color: rgb(247, 142, 4);
-    text-shadow: 3px 3px rgb(1, 207, 248);
+    color: rgb(26, 168, 250);
+    text-shadow: 3px 3px rgba(15, 80, 165, 0.774);
 }
 
 .heading-container {
@@ -104,20 +104,24 @@ h2 {
 .about-para {
     text-align: center;
     width: 80%;
-    color: rgb(255, 255, 255);
-    text-shadow: #000000 1px 1px;
+    color: rgb(14, 14, 15);
+    /* text-shadow: #000000 1px 1px; */
 }
 
 .para-banner {
     display: flex;
     justify-content: center;
-    border: #0abbe3 solid 1px;
-    background-color: #0abbe393;
-    animation-name: fadeInUp;
-    animation-duration: 2s;
-
+    border: #e2e2e2c5 solid 1px;
+    background-color: #e2e2e29f;
 }
 
+.animate {
+    animation: fadeInUp 1s;
+}
+
+.hide {
+    opacity: 0;
+}
 /* tech stack page */
 
 .tech-stack {
