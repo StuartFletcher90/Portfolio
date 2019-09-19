@@ -18,6 +18,7 @@ html, body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
 }
 /* nav stuff */
@@ -72,8 +73,8 @@ h2 {
     padding-top: 10%;
 }
 #welcome-message{
-    color: rgb(201, 190, 252);
-    text-shadow: rgba(92, 92, 92, 0.733) 3px 3px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(92, 92, 92, 0.733) 3px 3px 25px;
 }
 
 /* about me page! */
@@ -180,6 +181,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 .project-link img{
     height: 15vh;
@@ -216,12 +218,14 @@ h2 {
 }
 
 @media only screen and (max-width: 600px) {
-        .nav-links a {
+        .nav-links {
             color: rgb(31, 31, 31);
             text-decoration: none;
             font-weight: bold;
-            font-size: 13px;
+            font-size: 3px;
             padding-left: 10px;
+            text-align: center;
+            justify-content: center;
         }
 }
 
