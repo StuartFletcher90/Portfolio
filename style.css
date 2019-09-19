@@ -72,8 +72,8 @@ h2 {
     padding-top: 10%;
 }
 #welcome-message{
-    color: #FBC531;
-    text-shadow: #325EFA 3px 3px;
+    color: rgb(201, 190, 252);
+    text-shadow: rgba(92, 92, 92, 0.733) 3px 3px;
 }
 
 /* about me page! */
@@ -89,7 +89,7 @@ h2 {
 
 #about-message {
     color: rgb(26, 168, 250);
-    text-shadow: 3px 3px rgba(15, 80, 165, 0.774);
+    text-shadow: 3px 3px rgba(250, 152, 25, 0.822);
 }
 
 .heading-container {
