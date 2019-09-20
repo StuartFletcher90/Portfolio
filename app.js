@@ -15,6 +15,7 @@ $('.nav-links a').on('click', function (e) {
 });
 
 const aboutMe = document.getElementById("about-me-id")
+const techStack = document.getElementById("tech-icons")
 
 const myScrollFunc = () => {
   console.log(window.scrollY)
@@ -23,8 +24,12 @@ const myScrollFunc = () => {
   if (y >= 600) {
     aboutMe.classList.add("animate");
     aboutMe.classList.remove("hide");
-
   }
+  if (y >= 1569) {
+    techStack.classList.add("animate");
+    techStack.classList.remove("hide");
+  }
+
 
 }
 
